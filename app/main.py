@@ -95,7 +95,7 @@ def csvgen(phrase: str):
     to the keyword in 'spotify_music.csv'. The data is also
     returned as original dictionary (json) format.
     """
-    file_name = "./app/api/spotify_music.csv"
+    file_name = "./spotify_music.csv"
     return parser.create_csv(phrase, file_name)
 
 
@@ -106,7 +106,7 @@ def db_reload():
     """
     ormdb.reset_db(ormdb.engine)
     db = ormdb.get_db()
-    file_name = "./app/api/spotify_music.csv"
+    file_name = "./spotify_music.csv"
     ormdb.load_csv(db, file_name)
     songs = db.query(ormdb.Songdb).all()
     db.close()
