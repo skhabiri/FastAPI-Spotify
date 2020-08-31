@@ -10,21 +10,23 @@ from pydantic import BaseModel, Field, validator
 # pydantic Schema for Fastapi front end
 class Song(BaseModel):
     """Front end data model used by fastapi"""
+    album: str
+    aluri: str
+    track_number: int
+    trid: str
+    name: str
+    artist: str
+    arid: str
     acousticness: float = Field(..., example=0.029400)
     energy: float = Field(..., example=0.579)
-    album: str
-    track_number: int
-    id: str
-    name: str
     danceability: float
     instrumentalness: float
-    loudness: float
     liveness: float
+    loudness: float
     speechiness: float
     tempo: float
     valence: float
     popularity: int
-    uri: str
 
     class Config:
         orm_mode = True

@@ -17,7 +17,7 @@ router = APIRouter()
 
 
 @router.get('/predict/{id}')
-async def predict(id: str):
+async def predict_fun(id: str):
     """
     Takes a trackID string as input and returns a list
     of similar trackIDs

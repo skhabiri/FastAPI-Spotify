@@ -1,16 +1,52 @@
 """
 Spotify app based on fastapi
-routs: root, database, songs, reset
+routs:
+/: root
+
+/predict/{id}: Gets a track id and returns a list of suggestions based on a joblib knn model
+
+/viz/{track_id}: Plots a radar plot of audio features of a trackId
+
+/Track_Search: Search Spotify for a phrase and returns a limited
+list of artists, albums and track names
+
+/Create_csv: generate csv file containing information of all tracks
+ derived from a phrase search on Spotify
+
+/DB_Load: Reset and Load the csv file into elephant postgress database
+
+/DB_Query: returns the first 20 tracks from database
+
+/DB_Reset: Reset the database
+
+/README: Renders README.md
+
+
+To launch the local web server on terminal:
+uvicorn app.main:app --reload
 """
+
+if __name__ == '__main__' and  __package__ is None:
+    print("__name__ is: {}".format(__name__))
+    print("__package__ is: {}".format(__package__))
+    print("__file__ is: {}".format(__file__))
+    __package__ = "app"
+else:
+    print("__name__ is: {}".format(__name__))
+    print("__package__ is: {}".format(__package__))
+    print("__file__ is: {}".format(__file__))
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from typing import List, Optional
-from .api.ormdb import *
-from .api.fedata import Song
-from .api import predict, viz, spotify
+from .api.settings import *
+from typing import List, Optional, Set, TypeVar
+from .api import fedata, predict, viz, parser, ormdb
+# from .api.fedata import Song
+# from .api.predict import *
+# from .api.viz import *
+# from .api.parser import *
 
-# to launch the local web server: uvicorn app.main:app --reload
 
 app = FastAPI(
     title='Spotify Web App',
@@ -22,7 +58,7 @@ app = FastAPI(
 
 app.include_router(predict.router)
 app.include_router(viz.router)
-app.include_router(spotify.router)
+# app.include_router(parser.router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -37,7 +73,66 @@ def root():
     """
     Lists all the routs
     """
-    return README.md
+    return "See the README.md"
+
+
+@app.post('/Track_Search/')
+def songsearch(phrase: str):
+    """
+    An API call to Spotify, to search for a
+    keyword and return a list of dictionaries
+    containing the artist, album and track names
+    ex/ key_word = {"california dreamin"}
+    :return:
+    """
+    return parser.spotify_parser(phrase)
+
+
+@app.post("/Create_csv/")
+def csvgen(phrase: str):
+    """
+    Search spotify api and save all the album tracks related
+    to the keyword in 'spotify_music.csv'. The data is also
+    returned as original dictionary (json) format.
+    """
+    file_name = "./app/api/spotify_music.csv"
+    return parser.create_csv(phrase, file_name)
+
+
+@app.get("/DB_Load")
+def db_reload():
+    """
+    Reset and reload the database from spotify_music.csv file
+    """
+    ormdb.reset_db(ormdb.engine)
+    db = ormdb.get_db()
+    file_name = "./app/api/spotify_music.csv"
+    ormdb.load_csv(db, file_name)
+    songs = db.query(ormdb.Songdb).all()
+    db.close()
+
+    return f"{len(songs)} records loaded"
+
+
+@app.get("/DB_Query/", response_model=List[fedata.Song])
+def query_tracks():
+    """
+    Get the first 20 tracks that exist in the database.
+    """
+    db = ormdb.get_db()
+    songs = db.query(ormdb.Songdb).limit(20).all()
+    db.close()
+    return songs
+
+
+@app.post("/DB_Reset")
+def reset():
+    """
+    Flush the database
+    """
+    ormdb.reset_db(ormdb.engine)
+    return "Database reset!"
+
 
 @app.get("/README")
 def readmedoc():
@@ -192,39 +287,6 @@ def readmedoc():
 
     """
     return
-
-@app.get("/Database")
-def db_reload():
-    """
-    Reset and reload the database from spotify_music.csv file
-    """
-    reset_db(engine)
-    db = get_db()
-    file_name = "./app/api/spotify_music.csv"
-    load_csv(db, file_name)
-    db.close()
-    return "Data Base Reloaded!"
-
-
-@app.get("/songs/", response_model=List[Song])
-def songs_list():
-    """
-    Get all the audio features of the songs
-    that exist in the database.
-    """
-    db = get_db()
-    songs = db.query(Songdb).all()
-    db.close()
-    return songs
-
-
-@app.post("/Reset")
-def reset():
-    """
-    Flush the database
-    """
-    reset_db(engine)
-    return "Database reset!"
 
 
 if __name__ == '__main__':

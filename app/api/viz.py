@@ -1,16 +1,39 @@
+"""
+Radar plot of audio features for a trackId
+"""
+""" 
+When run as a module or when __package__ is not None:
+from .filename import *    or
+form api.filename import *
+
+when the .py file is a script (__package__ is None and __name__ == __main__):
+from filename import *
+"""
+
+if __name__ == '__main__' and  __package__ is None:
+    print("__name__ is: {}".format(__name__))
+    print("__package__ is: {}".format(__package__))
+    print("__file__ is: {}".format(__file__))
+    __package__ = "app.api"
+else:
+    print("__name__ is: {}".format(__name__))
+    print("__package__ is: {}".format(__package__))
+    print("__file__ is: {}".format(__file__))
+
 from fastapi import APIRouter, HTTPException
 import pandas as pd
 import plotly.express as px
 import joblib
-from .predict import FILENAME, csv_url
+# from .predict import FILENAME, csv_url
 
+FILENAME = "./app/api/BW_Spotify_Final.joblib"
+csv_url = "./app/api/BW_Spotify_Final.csv"
 router = APIRouter()
 
 
 # Import the prediction model
 knn = joblib.load(FILENAME)
 new_df = pd.read_csv(csv_url)
-# track_id = new_df['id'][0]
 
 
 # Comes from the colab file containing the prediction model
@@ -61,7 +84,7 @@ def feature_average(track_id):
 
 
 @router.get('/viz/{track_id}')
-async def viz(track_id: str):
+async def viz_fun(track_id: str):
     r = feature_average(track_id)
     attributes = [
         'acousticness',
@@ -75,6 +98,5 @@ async def viz(track_id: str):
     # Make Plotly figure
     fig = px.line_polar(r=r, theta=attributes, line_close=True)
     fig.update_traces(fill='toself')
-    # fig.show()
-    # fig.to_json()
-    return fig.to_json()
+
+    return fig.to_json(), fig.show()
