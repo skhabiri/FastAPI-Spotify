@@ -1,4 +1,4 @@
-# Data Science Build Week [[  Final DRAFT  ]]
+# Data Science Build Week
 Data Set: Kaggle Spotify Dataset 1912-2020, 160k Tracks
 
 Model Type: K-nearest neighbors 
