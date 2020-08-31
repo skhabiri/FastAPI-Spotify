@@ -92,17 +92,17 @@ def songsearch(phrase: str):
 def csvgen(phrase: str):
     """
     Search spotify api and save all the album tracks related
-    to the keyword in 'spotify_music.csv'. The data is also
-    returned as original dictionary (json) format.
+    to the keyword to a csv file.
     """
     file_name = "./spotify_music.csv"
-    return parser.create_csv(phrase, file_name)
+    parser.create_csv(phrase, file_name)
+    return "csv file generated!"
 
 
 @app.get("/DB_Load")
 def db_reload():
     """
-    Reset and reload the database from spotify_music.csv file
+    Reset and reload the database from a csv file
     """
     ormdb.reset_db(ormdb.engine)
     db = ormdb.get_db()
@@ -114,13 +114,13 @@ def db_reload():
     return f"{len(songs)} records loaded"
 
 
-@app.get("/DB_Query/", response_model=List[fedata.Song])
-def query_tracks():
+@app.post("/DB_Query/", response_model=List[fedata.Song])
+def query_tracks(num: int):
     """
-    Get the first 20 tracks that exist in the database.
+    Get the first 'num' tracks that exist in the database.
     """
     db = ormdb.get_db()
-    songs = db.query(ormdb.Songdb).limit(20).all()
+    songs = db.query(ormdb.Songdb).limit(num).all()
     db.close()
     return songs
 
