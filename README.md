@@ -36,7 +36,7 @@ To build a functioning application programming interface and machine learning mo
 - [Pytest](https://docs.pytest.org/en/stable/): Testing framework, runs your unit tests.
 - [Uvicorn](https://www.uvicorn.org/#quickstart): Uvicorn is a lightning-fast ASGI server, built on uvloop and httptools.
 - [SQLAlchemy](https://www.sqlalchemy.org/): SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
-- [Spotipy](https://spotipy.readthedocs.io/en/2.13.0/): (Not designed in structure of project) Spotipy is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.
+- [Spotipy](https://spotipy.readthedocs.io/en/2.13.0/): Spotipy is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.
 - [SciKit-Learn](https://scikit-learn.org/stable/getting_started.html): Simple and efficient tools for predictive data analysis.
 - [Pandas](https://pandas.pydata.org/docs/getting_started/index.html): Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 
