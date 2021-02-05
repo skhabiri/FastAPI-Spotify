@@ -27,11 +27,13 @@ uvicorn app.main:app --reload
 """
 
 if __name__ == '__main__' and  __package__ is None:
+    print("is run as a python script not module")
     print("__name__ is: {}".format(__name__))
     print("__package__ is: {}".format(__package__))
     print("__file__ is: {}".format(__file__))
     __package__ = "app"
 else:
+    print("is run as a module not python script")
     print("__name__ is: {}".format(__name__))
     print("__package__ is: {}".format(__package__))
     print("__file__ is: {}".format(__file__))
@@ -39,13 +41,9 @@ else:
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from .api.settings import *
-from typing import List, Optional, Set, TypeVar
-from .api import fedata, predict, viz, parser, ormdb
-# from .api.fedata import Song
-# from .api.predict import *
-# from .api.viz import *
-# from .api.parser import *
+# from .api.settings import *
+from typing import List, Optional, TypeVar
+from .api import fedata, predict, parser, ormdb, viz
 
 
 app = FastAPI(
@@ -57,8 +55,6 @@ app = FastAPI(
 
 
 app.include_router(predict.router)
-app.include_router(viz.router)
-# app.include_router(parser.router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -76,57 +72,58 @@ def root():
     return "See the README.md"
 
 
-@app.post('/Track_Search/')
-def songsearch(phrase: str):
+@app.post('/SpotifySearch/')
+def spotifysearch(phrase: str, limit: int = 5):
     """
     An API call to Spotify, to search for a
-    keyword and return a list of dictionaries
-    containing the artist, album and track names
+    keyword and return a list of "limit" number of 
+    items containing the artist, album and 
+    track names.
     ex/ key_word = {"california dreamin"}
-    :return:
+    return: list of dictionary
     """
-    return parser.spotify_parser(phrase)
+    return parser.spotify_parser(phrase, limit)
 
 
-@app.post("/Create_csv/")
-def csvgen(phrase: str):
+@app.post("/csv_dump/")
+def csv_dump(phrase: str, file_name: str = "./spotify_query.csv", limit: int =1):
     """
     Search spotify api and save all the album tracks related
-    to the keyword to a csv file.
+    to the keyword to a csv file. Number of artists is set by "limit"
+    return: csv file
     """
-    file_name = "./spotify_music.csv"
-    parser.create_csv(phrase, file_name)
-    return "csv file generated!"
+    record_num, album_num = parser.csv_gen(phrase, file_name, limit)
+    return "{} created. No. of albums:{}, No. of records:{}".format(file_name, album_num, record_num)
 
 
-@app.get("/DB_Load")
-def db_reload():
+@app.get("/DB_reload")
+def DB_reload(file_name: str = "./spotify_query.csv"):
     """
     Reset and reload the database from a csv file
     """
     ormdb.reset_db(ormdb.engine)
-    db = ormdb.get_db()
-    file_name = "./spotify_music.csv"
-    ormdb.load_csv(db, file_name)
-    songs = db.query(ormdb.Songdb).all()
-    db.close()
+    session = ormdb.get_session()
+    ormdb.load_csv(session, file_name)
+    songs = session.query(ormdb.Songdb).all()
+    session.close()
 
-    return f"{len(songs)} records loaded"
+    return f"{len(songs)} records from {file_name} loaded to the DB"
 
 
 @app.post("/DB_Query/", response_model=List[fedata.Song])
-def query_tracks(num: int):
+def db_query(num: int):
     """
-    Get the first 'num' tracks that exist in the database.
+    Get the first 'num' of tracks that is in the database.
+    return: list of data model "Song"
     """
-    db = ormdb.get_db()
-    songs = db.query(ormdb.Songdb).limit(num).all()
-    db.close()
+    session = ormdb.get_session()
+    songs = session.query(ormdb.Songdb).limit(num).all()
+    session.close()
     return songs
 
 
 @app.post("/DB_Reset")
-def reset():
+def db_reset():
     """
     Flush the database
     """
@@ -137,7 +134,7 @@ def reset():
 @app.get("/README")
 def readmedoc():
     """
-    # Data Science Build Week [[  Final DRAFT  ]]
+    # FASTAPI - Spotify
     Data Set: Kaggle Spotify Dataset 1912-2020, 160k Tracks
 
     Model Type: K-nearest neighbors
@@ -145,8 +142,8 @@ def readmedoc():
     Target: Song ID’s
 
     #### Teams
-    - DS_16 Machine Learning
     - DS_17 Data Engineering
+    - DS_16 Machine Learning
 
 
     Content:

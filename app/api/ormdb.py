@@ -12,11 +12,13 @@ from filename import *
 """
 
 if __name__ == '__main__' and  __package__ is None:
+    print("is run as a python script not module")
     print("__name__ is: {}".format(__name__))
     print("__package__ is: {}".format(__package__))
     print("__file__ is: {}".format(__file__))
     __package__ = "app.api"
 else:
+    print("is run as a module not python script")
     print("__name__ is: {}".format(__name__))
     print("__package__ is: {}".format(__package__))
     print("__file__ is: {}".format(__file__))
@@ -31,13 +33,16 @@ import csv
 from .settings import DATABASE_URL
 import psycopg2
 
+# connect an engine to ElephantSQL
 engine = create_engine(DATABASE_URL)
+# create a SessionLocal class bound to the engine
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 Base.metadata.create_all(bind=engine)
 
 
 class Songdb(Base):
+    # By default the table name is "songdb"
     __tablename__ = "Song_table"
     """Song_db data model based on sqlalchemy 
     used by elephant postgres database """
@@ -61,10 +66,14 @@ class Songdb(Base):
     valence = Column(Float)
     popularity = Column(Integer)
 
+    def __repr__(self):
+        return '-name:{}, artist:{}, trid:{}-'.format(
+            self.name, self.artist, self.trid)
+
 
 def reset_db(engine):
     """
-    reset the database and re-create it
+    reset the database and re-create metadata
     """
     try:
         Base.metadata.drop_all(bind=engine)
@@ -73,26 +82,30 @@ def reset_db(engine):
     return
 
 
-def get_db():
+def get_session():
     """
-    Open a db session
+    Open a local db session
     """
     try:
-        db.close()
+        session.close()
+    except:
+        pass
     finally:
-        db = SessionLocal()
-        return db
+        session = SessionLocal()
+    return session
 
 
-def load_csv(db: Session, file_name: str):
+def load_csv(session: Session, file_name: str):
     """
     Load a csv file into the db session
     """
 
     with open(file_name, "r") as f:
+        # read each row as a dictionary with key value pairs
         csv_reader = csv.DictReader(f)
 
         for row in csv_reader:
+            # make an instance of Songdb
             db_record = Songdb(
                 album=row["album"],
                 aluri=row["aluri"],
@@ -112,8 +125,9 @@ def load_csv(db: Session, file_name: str):
                 valence=row["valence"],
                 popularity=row["popularity"],
             )
-            db.add(db_record)
-        db.commit()
+            # add the instance to the db session
+            session.add(db_record)
+        session.commit()
     return
 
 

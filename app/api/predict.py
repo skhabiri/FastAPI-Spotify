@@ -15,6 +15,22 @@ csv_url = "./app/api/BW_Spotify_Final.csv"
 log = logging.getLogger(__name__)
 router = APIRouter()
 
+# Import the prediction model
+knn = joblib.load(FILENAME)
+df = pd.read_csv(csv_url)
+
+# Comes from the colab file containing the prediction model
+def predict_model(track_id, df, knn):
+    """
+    It takes the user's track id and trained dataframe and the trained joblib model.
+    It returns a list of 50 track ids that are similar to the user's track id
+    """
+    obs = df.index[df['id'] == track_id]
+    series = df.iloc[obs, 5:].to_numpy()
+
+    neighbors = knn.kneighbors(series)
+    new_obs = neighbors[1][0][6:56]
+    return list(df.loc[new_obs, 'id'])
 
 @router.get('/predict/{id}')
 async def predict_fun(id: str):
@@ -46,25 +62,6 @@ async def predict_fun(id: str):
     - `Suggested track IDs`: a list of trackIDs that are similar to the user's trackID
     """
 
-    # Import the prediction model
-    knn = joblib.load(FILENAME)
-    df = pd.read_csv(csv_url)
-
-    # Comes from the colab file containing the prediction model
-    def predict_model(track_id, new_df, knn):
-        """
-        It takes the user's track id and trained dataframe and the joblib model.
-        It returns a list of 50 track ids that are similar to the user's track id
-        """
-        obs = new_df.index[new_df['id'] == track_id]
-        series = new_df.iloc[obs, 5:].to_numpy()
-
-        neighbors = knn.kneighbors(series)
-        new_obs = neighbors[1][0][6:56]
-        return list(new_df.loc[new_obs, 'id'])
-
-    tracks = predict_model(track_id= id, new_df=df, knn=knn)
-
     return {
-         'Suggested track IDs': tracks
+         'Suggested track IDs': predict_model(track_id= id, df=df, knn=knn)
          }

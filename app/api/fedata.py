@@ -1,7 +1,7 @@
 """
-defines the data model type for use in fastapi
+defines the front end data model type for use in fastapi
 """
-import logging
+# import logging
 # from fastapi import APIRouter
 import pandas as pd
 from pydantic import BaseModel, Field, validator
@@ -32,6 +32,7 @@ class Song(BaseModel):
         orm_mode = True
 
 
+# song of type Song
 def to_df(song: Song):
     """Convert pydantic object to pandas dataframe with 1 row."""
     return pd.DataFrame([dict(song)])
