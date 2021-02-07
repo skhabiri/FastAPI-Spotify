@@ -4,13 +4,14 @@ Output: Returns 50 TrackIds that relates to the original TrackId
 """
 
 import logging
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 import joblib
 import pandas as pd
+from os.path import dirname, join
 
-
-FILENAME = "./app/api/BW_Spotify_Final.joblib"
-csv_url = "./app/api/BW_Spotify_Final.csv"
+apipath = dirname(__file__)
+FILENAME = join(apipath, "BW_Spotify_Final.joblib")
+csv_url = join(apipath, "BW_Spotify_Final.csv")
 
 log = logging.getLogger(__name__)
 router = APIRouter()
@@ -33,7 +34,7 @@ def predict_model(track_id, df, knn):
     return list(df.loc[new_obs, 'id'])
 
 @router.get('/predict/{id}')
-async def predict_fun(id: str):
+async def predict_func(id: str):
     """
     Takes a trackID string as input and returns a list
     of similar trackIDs
@@ -61,7 +62,12 @@ async def predict_fun(id: str):
     ### Response
     - `Suggested track IDs`: a list of trackIDs that are similar to the user's trackID
     """
+    try:
+        pred = predict_model(track_id= id, df=df, knn=knn)
+    except Exception as e:
+        print(e.args)
+        raise HTTPException(status_code=500, detail="Input is not in trained database")
 
     return {
-         'Suggested track IDs': predict_model(track_id= id, df=df, knn=knn)
+         'Suggested track IDs': pred
          }

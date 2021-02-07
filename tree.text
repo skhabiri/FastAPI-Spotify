@@ -1,0 +1,33 @@
+.
+├── .env
+├── LICENSE
+├── Pipfile
+├── Pipfile.lock
+├── Procfile
+├── README.md
+├── appdir
+│   ├── __init__.py
+│   ├── api
+│   │   ├── BW_Spotify_Final.csv
+│   │   ├── BW_Spotify_Final.joblib
+│   │   ├── __init__.py
+│   │   ├── fedata.py
+│   │   ├── ormdb.py
+│   │   ├── parser.py
+│   │   ├── predict.py
+│   │   ├── settings.py
+│   │   └── viz.py
+│   ├── main.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_main.py
+│       ├── test_predict.py
+│       └── test_viz.py
+├── etc
+│   └── new_df.csv
+├── notebooks
+│   └── README.md
+├── spotify_query.csv
+└── tree.text
+
+5 directories, 25 files

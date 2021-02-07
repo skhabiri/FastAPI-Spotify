@@ -23,27 +23,43 @@ list of artists, albums and track names
 
 
 To launch the local web server on terminal:
-uvicorn app.main:app --reload
+uvicorn appdir.main:app --reload
 """
 
+print("\n__file__: {}".format(__file__))
 if __name__ == '__main__' and  __package__ is None:
-    print("is run as a python script not module")
-    print("__name__ is: {}".format(__name__))
-    print("__package__ is: {}".format(__package__))
-    print("__file__ is: {}".format(__file__))
-    __package__ = "app"
+    print("is running as a Python Script")
 else:
-    print("is run as a module not python script")
-    print("__name__ is: {}".format(__name__))
-    print("__package__ is: {}".format(__package__))
-    print("__file__ is: {}".format(__file__))
+    print("is running as a Python Module")
+
+print("__name__ is: {}".format(__name__))
+print("__package__ is: {}".format(__package__))
+
+# None is for script and "" is for python repl import module
+if __package__ in [None, ""]:
+    # adding project directory to the path 
+    import re
+    # remove the "/filename.py"
+    c_dir = re.sub(r"(^.*)\/.*\.py$", r"\g<1>", __file__)
+    
+    from sys import path
+    from os.path import dirname as dir
+    print("existing path:\n", path)
+
+    path.append(dir(c_dir))
+    # now everything under FastAPI-Spotify, including "appdir" would be recognized
+
+    print("expanded system path:\n", path)
+    __package__ = "appdir"
+
+
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 # from .api.settings import *
 from typing import List, Optional, TypeVar
-from .api import fedata, predict, parser, ormdb, viz
+from appdir.api import fedata, predict, parser, ormdb, viz
 
 
 app = FastAPI(
@@ -277,13 +293,14 @@ def readmedoc():
 
     Launch the app
     ```
-    uvicorn app.main:app --reload
+    uvicorn appdir.main:app --reload
     ```
 
     Go to `localhost:8000` in the browser.
 
     """
     return
+
 
 
 if __name__ == '__main__':

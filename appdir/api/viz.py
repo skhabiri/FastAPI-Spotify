@@ -1,38 +1,48 @@
 """
 Radar plot of audio features for a trackId
 """
-""" 
-When run as a module or when __package__ is not None:
-from .filename import *    or
-form api.filename import *
 
-when the .py file is a script (__package__ is None and __name__ == __main__):
-from filename import *
-"""
-
+print("\n__file__: {}".format(__file__))
 if __name__ == '__main__' and  __package__ is None:
-    print("runs as a python script not module")
-    print("__name__ is: {}".format(__name__))
-    print("__package__ is: {}".format(__package__))
-    print("__file__ is: {}".format(__file__))
-    __package__ = "app.api"
+    print("is running as a Python Script")
 else:
-    print("runs as a module not python script")
-    print("__name__ is: {}".format(__name__))
-    print("__package__ is: {}".format(__package__))
-    print("__file__ is: {}".format(__file__))
+    print("is running as a Python Module")
+
+print("__name__ is: {}".format(__name__))
+print("__package__ is: {}".format(__package__))
+
+# None is for script and "" is for python repl import module
+if __package__ in [None, ""]:
+    # adding project directory to the path 
+    import re
+    # remove the "/filename.py"
+    c_dir = re.sub(r"(^.*)\/.*\.py$", r"\g<1>", __file__)
+    
+    from sys import path
+    from os.path import dirname as dir
+    print("existing path:\n", path)
+
+    path.append(dir(dir(c_dir)))   
+    # now everything under FastAPI-Spotify, including "appdir" would be recognized
+
+    print("expanded system path:\n", path)
+    __package__ = "appdir.api"
 
 
 import pandas as pd
 import plotly.graph_objects as go
-from app.api.predict import predict_model, df, knn, router
-
+from appdir.api.predict import predict_model, df, knn, router
+from fastapi import HTTPException
 
 def feature_average(track_id):
     '''
     This function returns the sum of the features for the ten recommended songs.
     '''
-    similar_tracks = predict_model(track_id, df, knn)
+    try:
+        similar_tracks = predict_model(track_id, df, knn)
+    except Exception as e:
+        print(e.args)
+        raise HTTPException(status_code=500, detail="Input is not in the trained dataset")
     
     # Return a dataframe with only the most similar tracks
     similar_tracks = df[df["id"].isin(similar_tracks)]
@@ -57,7 +67,7 @@ def feature_average(track_id):
 
 
 @router.get('/viz/{track_id}')
-async def viz_fun(track_id: str):
+async def viz_func(track_id: str):
     
     r = feature_average(track_id)
     attributes = [

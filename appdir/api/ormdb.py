@@ -2,26 +2,31 @@
 defines a class type for sqlalchemy, and loads the database based on a csv file
 """
 
-""" 
-When run as a module or when __package__ is not None:
-from .filename import *    or
-form api.filename import *
-
-when the .py file is a script (__package__ is None and __name__ == __main__):
-from filename import *
-"""
-
+print("\n__file__: {}".format(__file__))
 if __name__ == '__main__' and  __package__ is None:
-    print("is run as a python script not module")
-    print("__name__ is: {}".format(__name__))
-    print("__package__ is: {}".format(__package__))
-    print("__file__ is: {}".format(__file__))
-    __package__ = "app.api"
+    print("is running as a Python Script")
 else:
-    print("is run as a module not python script")
-    print("__name__ is: {}".format(__name__))
-    print("__package__ is: {}".format(__package__))
-    print("__file__ is: {}".format(__file__))
+    print("is running as a Python Module")
+
+print("__name__ is: {}".format(__name__))
+print("__package__ is: {}".format(__package__))
+
+# None is for script and "" is for python repl import module
+if __package__ in [None, ""]:
+    # adding project directory to the path 
+    import re
+    # remove the "/filename.py"
+    c_dir = re.sub(r"(^.*)\/.*\.py$", r"\g<1>", __file__)
+    
+    from sys import path
+    from os.path import dirname as dir
+    print("existing path:\n", path)
+
+    path.append(dir(dir(c_dir)))    
+    # now everything under FastAPI-Spotify, including "appdir" would be recognized
+
+    print("expanded system path:\n", path)
+    __package__ = "appdir.api"
 
 
 from sqlalchemy import create_engine
