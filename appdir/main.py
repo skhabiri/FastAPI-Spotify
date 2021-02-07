@@ -63,9 +63,13 @@ from appdir.api import fedata, predict, parser, ormdb, viz
 
 
 app = FastAPI(
-    title='Spotify Web App',
-    description='Fast-API interface for Spotify application',
-    version='0.1',
+    title='Spotify Data Science API',
+    description="""
+    This is a FastAPI microservice for Spotify Web application. 
+    The listed routes return JSON data to frontend JavaScript app.
+    Repository: https://github.com/skhabiri/FastAPI-Spotify
+    """,
+    version='0.2',
     docs_url='/',
 )
 
