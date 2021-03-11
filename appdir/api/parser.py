@@ -42,14 +42,14 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from .settings import *
-from fastapi import APIRouter
+# from fastapi import APIRouter
 
 
 # all the keys are read from .env located in the project directory
 client_cred = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_cred)
 
-router = APIRouter()
+# router = APIRouter()
 
 def spotify_parser(phrase: str, limit: int):
     """

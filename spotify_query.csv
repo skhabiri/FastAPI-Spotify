@@ -1,73 +1,286 @@
 ,album,aluri,track_number,trid,name,artist,arid,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,popularity
-0,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,1,58uuh9HLtbIxdiGhXwdwNy,People Like Us,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.495,0.599,0.371,1.04e-05,0.0921,-13.095,0.0246,90.988,0.765,35
-1,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,2,06NqM7dh0LST5r0O6QmP4F,Pacific Coast Highway,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.716,0.702,0.623,0.00075,0.0661,-10.995,0.0327,131.976,0.973,25
-2,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,3,5DPNLHoisZSIInV23TJ49P,Snowqueen Of Texas,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.71,0.663,0.288,0.0,0.131,-15.323,0.0338,78.239,0.716,53
-3,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,4,2aTOcwoFY59xIGeEmuggL8,Shooting Star,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.277,0.651,0.701,1.4e-05,0.121,-12.086,0.0335,91.713,0.76,25
-4,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,5,6k8jJoD6uqghSx1RkHkw1d,Step Out,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.623,0.676,0.441,0.00862,0.0701,-13.835,0.0347,81.011,0.929,31
-5,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,6,3UsrbXONrnzGt3ouQtMqrj,Lady Genevieve,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.603,0.653,0.487,0.000512,0.227,-15.915,0.0311,96.36,0.855,25
-6,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,7,3HuAUoCJs6zJT46uIY107y,No Dough,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.442,0.546,0.459,9.04e-06,0.0915,-15.85,0.0291,89.926,0.826,30
-7,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,8,7l3smylX9ZSPhNftWIPRqA,European Blueboy,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.816,0.735,0.616,0.00179,0.335,-14.625,0.0285,107.457,0.905,30
-8,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,9,52JAv538jkMfmXZXeM0qAp,Pearl,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.288,0.532,0.477,0.0,0.0805,-13.928,0.033,96.563,0.787,22
-9,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,10,6M3pXVuAIi93up2sYVNCjs,I Wanna Be A Star,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.538,0.804,0.296,0.00298,0.0908,-17.135,0.0343,106.759,0.804,22
-10,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,11,6igI2z2fHLceeKHS37GbnO,Grasshopper,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.286,0.618,0.463,0.0295,0.0746,-16.297,0.0315,169.92,0.949,23
-11,People Like Us,spotify:album:4HjNY35duY5p5ntqoyIlpp,12,4713WnRYJ0AY1qexk8o1Hd,Blueberries For Breakfast,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.545,0.656,0.397,0.0,0.122,-14.565,0.0375,145.732,0.879,49
-12,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,1,0iZ9JV5UWiSq57JXvW8iwg,The Right Somebody To Love,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.935,0.68,0.0751,0.0,0.41,-19.698,0.454,85.289,0.192,31
-13,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,2,3hyijGbu3p2VWapIJY2xgT,Safe In My Garden,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.663,0.428,0.338,0.0,0.208,-12.536,0.0307,86.99,0.161,37
-14,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,3,6MJhYd3Aqhz3PT4swJteAl,Meditation Mama (Transcendental Woman Travels),The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.138,0.495,0.404,0.715,0.1,-12.988,0.0281,88.291,0.447,26
-15,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,4,5sCiymtGHzbRkyAwwhlmPI,For The Love Of Ivy,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.625,0.294,0.552,0.0,0.137,-10.176,0.03,77.315,0.728,33
-16,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,5,27hhIs2fp6w06N5zx4Eaa5,Dream A Little Dream Of Me - With Introduction,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.791,0.413,0.313,1.5e-06,0.0727,-13.138,0.0519,92.515,0.349,68
-17,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,6,2IbwuAa7rzD5gQNVSEVKxH,Mansions,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.661,0.584,0.389,0.0,0.156,-12.879,0.028,106.815,0.28,26
-18,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,7,59emWDC7Dnhs9FOfN4PKXD,Gemini Childe,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.654,0.364,0.42,0.000149,0.0947,-14.463,0.0309,81.952,0.321,24
-19,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,8,3V9xVepeucWN0mW5499zH6,Nothing's Too Good For My Little Girl,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.662,0.671,0.319,2.63e-06,0.188,-13.444,0.0294,106.449,0.78,24
-20,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,9,5RocxEczDcNN1WrQAbqRH1,Too Late,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.717,0.303,0.361,4.66e-06,0.0644,-12.668,0.0327,84.954,0.251,23
-21,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,10,4ZK6Vo5lRD0IkT9Fm8b93L,Twelve Thirty - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.345,0.557,0.444,0.0,0.717,-13.986,0.0305,113.252,0.472,49
-22,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,11,5KrRC6q8o1uRgWIWSO1X8C,Rooms,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.386,0.491,0.382,0.0,0.308,-13.778,0.0333,106.136,0.522,23
-23,The Papas & The Mamas,spotify:album:0JJMI060q086v9ul5gHdey,12,0xMgWBNEdkV45qmf5gX5IC,Midnight Voyage,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.8,0.589,0.231,0.0,0.249,-14.559,0.0401,109.172,0.634,37
-24,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,1,1mFrjW8e8fuAOowlU3Q3Dr,Dedicated To The One I Love,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.814,0.396,0.452,0.0,0.192,-8.809,0.0326,103.264,0.307,62
-25,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,2,2SxgYfCw1qEBEkYHWsHRP5,My Girl,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.749,0.541,0.469,1.49e-05,0.0862,-8.005,0.0257,104.784,0.545,40
-26,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,3,2pfEVSZdq5McocgAYWhgLu,Creeque Alley - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.721,0.615,0.754,0.0,0.077,-6.104,0.0379,145.299,0.786,48
-27,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,4,5FwN877RnDZt5X7z0nqzGP,Sing For Your Supper,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.773,0.336,0.587,0.0,0.286,-5.465,0.0298,97.375,0.56,34
-28,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,5,3GBgcomUb0yvKfkxybq7mN,Twist And Shout,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.8,0.552,0.538,5.69e-05,0.104,-6.61,0.0249,96.039,0.707,36
-29,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,6,5PcgdbxBhgugCeDU9kygYx,Free Advice,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.669,0.535,0.58,0.0,0.107,-5.869,0.0346,113.366,0.792,25
-30,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,7,0mKthKFxmw22frB6DX7yVx,Look Through My Window,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.608,0.363,0.434,0.0,0.334,-7.688,0.0273,105.264,0.372,34
-31,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,8,5YCSqoEZs3S1srhLopWpi3,Boys And Girls Together,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.672,0.516,0.533,3.69e-05,0.127,-7.723,0.0351,106.143,0.664,24
-32,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,9,07nRSN7q8IVMTImgYUxnKy,String Man,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.746,0.466,0.687,0.0,0.216,-6.076,0.0316,112.005,0.56,23
-33,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,10,6bIGuDObSkF6u2Uk7ViLV4,Frustration,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.393,0.654,0.665,0.842,0.0547,-7.961,0.0289,109.726,0.791,22
-34,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,11,4rp3LVyaEgbjgFgZz1wwzL,Did You Ever Want To Cry,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.873,0.657,0.443,0.000347,0.134,-7.802,0.0315,102.81,0.671,24
-35,Deliver,spotify:album:0zR6CIh3f8DFFzIee5AWwp,12,0iOVvraffRXtgxC9Bzctgm,John's Music Box,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.91,0.299,0.292,0.0111,0.116,-17.023,0.0348,167.505,0.129,20
-36,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,1,0jrfuyBnKk16JbIyhqmVxr,No Salt On Her Tail,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.0212,0.458,0.702,0.0238,0.113,-7.585,0.026,99.334,0.885,32
-37,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,2,5F3HI5Qf4OtYoU67lWBNzO,"Trip, Stumble & Fall",The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.15,0.539,0.762,2.88e-05,0.311,-8.483,0.0471,119.616,0.59,24
-38,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,3,5dyH958ip694mJLUmac7Ab,Dancing Bear,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.925,0.441,0.277,1.47e-05,0.195,-9.987,0.03,123.25,0.091,32
-39,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,4,1DPy2UtzfVPL7T1xSoTC17,Words Of Love - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.6,0.444,0.704,0.0,0.235,-6.679,0.0453,115.942,0.595,38
-40,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,5,6bt66mdAIeV2vqzbkLY1lK,My Heart Stood Still,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.47,0.472,0.712,1.34e-05,0.092,-6.083,0.0315,106.957,0.425,20
-41,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,6,1Vv7ZtyDro81xmznV48gF6,Dancing In The Street,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.614,0.545,0.752,0.0,0.147,-6.816,0.0421,121.766,0.709,40
-42,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,7,2UizutYVqaB33jCHbSoi0d,I Saw Her Again - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.171,0.476,0.86,0.0309,0.235,-5.976,0.0331,121.715,0.894,44
-43,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,8,5yv9dAX7xkRCzQJudmpWYN,Strange Young Girls,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.679,0.363,0.299,0.0277,0.0828,-11.134,0.0284,101.499,0.203,32
-44,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,9,6e6bOOSp6VsTf7iOFcwv6z,I Can't Wait,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.00184,0.565,0.745,0.00641,0.108,-7.493,0.0296,119.35,0.664,20
-45,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,10,3OxhOhSLmmQsaevmBauGSG,Even If I Could,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.788,0.549,0.751,0.000302,0.22,-7.214,0.031,125.838,0.616,20
-46,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,11,562MDpXyzsGik7DX62ewjX,That Kind Of Girl,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.0757,0.623,0.863,0.0,0.138,-6.761,0.0429,128.298,0.869,19
-47,The Mamas & The Papas,spotify:album:1hZFdLqAFWrEC8U8qsb6WK,12,5Qkdbjd2W4R1bDifdSqfw5,Once Was A Time I Thought,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.948,0.591,0.245,0.0,0.2,-13.872,0.0627,128.341,0.416,24
-48,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,1,3EFb1qDgIqf9MegIryKtDj,"Monday, Monday - Single Version",The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.742,0.488,0.464,0.0,0.57,-9.496,0.0284,109.853,0.709,61
-49,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,2,5m63cyB8bzbRSEs53K8CxF,Straight Shooter,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.754,0.612,0.644,0.0,0.134,-10.018,0.0288,119.809,0.819,48
-50,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,3,70NQM5GG7rZHmvl7zzTDbu,Got A Feelin',The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.915,0.579,0.242,0.0337,0.0666,-17.964,0.0278,99.58,0.487,36
-51,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,4,46RVIZHY0PgIHT4Wbj1Swr,I Call Your Name,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.823,0.408,0.43,0.0,0.153,-11.287,0.0342,107.455,0.621,42
-52,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,5,645pkWAIHbCECpVsaZAxKq,Do You Wanna Dance,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.744,0.592,0.341,0.0,0.0905,-11.768,0.0286,108.79,0.637,37
-53,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,6,78Piv35GAw7BI81hFi8EmB,Go Where You Wanna Go,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.237,0.238,0.557,0.0,0.336,-10.066,0.033,209.953,0.635,46
-54,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,7,4s6LhHAV5SEsOV0lC2tjvJ,California Dreamin' - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.352,0.552,0.608,0.0,0.0533,-9.786,0.0345,112.367,0.637,76
-55,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,8,0WRxMtWDPThZbihymON7yy,Spanish Harlem,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.772,0.446,0.367,0.0,0.524,-11.104,0.0285,106.488,0.321,40
-56,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,9,1DmsXjXTjqQZ3kRl4yLvMw,Somebody Groovy - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.272,0.572,0.693,0.000651,0.071,-11.731,0.0336,116.558,0.803,35
-57,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,10,4bY7Za16KfbZsCFxDo5Xfg,Hey Girl,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.19,0.787,0.517,6.85e-06,0.118,-10.993,0.0387,113.664,0.893,32
-58,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,11,1o0NI2MZ3vwLLV0Hl9vqLN,You Baby,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.644,0.632,0.548,0.000402,0.0748,-11.383,0.0461,122.292,0.913,34
-59,If You Can Believe Your Eyes & Ears,spotify:album:76oMr4Y2pOtcrvZLc2ZikF,12,1Pq4rwx0XIgAs9Dbv9i6u6,"The ""In"" Crowd",The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.694,0.517,0.53,0.0,0.206,-11.765,0.0347,118.561,0.546,31
-60,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,1,46PzYzseHf3mSdkTMd8sgC,"Monday, Monday - Single Version",The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.757,0.493,0.467,0.0,0.388,-11.183,0.0289,110.553,0.731,38
-61,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,2,5mhxWFpwhV5Bza5EZnl2Gt,Straight Shooter,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.771,0.608,0.628,0.0,0.103,-10.976,0.0323,119.687,0.885,12
-62,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,3,1tVkVu8AuDAFMI3rkUPdAp,Got A Feelin',The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.908,0.587,0.245,0.00931,0.198,-18.043,0.028,99.837,0.501,15
-63,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,4,1lfEbHqeqMpECZkH4q0RFy,I Call Your Name,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.8,0.406,0.42,0.0,0.273,-11.447,0.0352,108.688,0.646,10
-64,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,5,6vvtk2lpYisP1L3Myy2wVm,Do You Wanna Dance,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.785,0.617,0.339,0.0,0.149,-12.068,0.0293,109.202,0.738,7
-65,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,6,6vxJ8XwKBjOGCMl5ZdNIHG,Go Where You Wanna Go,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.411,0.488,0.584,0.0,0.313,-10.254,0.0269,105.214,0.683,9
-66,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,7,63rva3TBizr6x1Yp5uwKfD,California Dreamin',The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.628,0.554,0.667,0.0,0.0486,-10.226,0.0342,112.749,0.597,49
-67,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,8,4JfKcrVaDPhklMKFdt5Z2S,Spanish Harlem,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.798,0.448,0.374,1.9e-06,0.417,-11.522,0.0277,106.773,0.313,9
-68,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,9,3BgeFyh77wCCAUPlC68YLY,Somebody Groovy - Single Version,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.349,0.58,0.637,0.00107,0.0778,-12.707,0.0312,116.393,0.809,8
-69,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,10,5RYIYCRWRpSMosbP77utg9,Hey Girl,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.393,0.783,0.511,0.0,0.0901,-11.958,0.0464,114.04,0.892,6
-70,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,11,0NYEvAnp1KbW9jmR9s8kWg,You Baby,The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.64,0.634,0.561,0.00165,0.0618,-11.15,0.0444,122.654,0.945,8
-71,If You Can Believe Your Eyes And Ears,spotify:album:6zK7GV2JCqLknAdTeIhooB,12,2BleSWarmE36dSUjVu4SHi,"The ""In"" Crowd",The Mamas & The Papas,1bs7HoMkSyQwcobCpE9KpN,0.755,0.526,0.564,4.4e-06,0.173,-11.807,0.0353,118.838,0.586,7
+0,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,1,70eFcWOvlMObDhURTqT4Fv,Beautiful People (feat. Khalid),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.124,0.64,0.647,0.0,0.0801,-8.114,0.186,92.979,0.546,75
+1,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,2,4vUmTMuQqjdnvlZmAH61Qk,South of the Border (feat. Camila Cabello & Cardi B),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.148,0.857,0.621,0.0,0.0865,-6.376,0.0825,97.989,0.668,78
+2,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,3,4wuCQX7JvAZLlrcmH4AeZF,Cross Me (feat. Chance the Rapper & PnB Rock),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.212,0.746,0.787,0.0,0.0669,-6.373,0.12,95.005,0.607,62
+3,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,4,1AI7UPw3fgwAFkvAlZWhE0,Take Me Back to London (feat. Stormzy),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.219,0.885,0.762,0.0,0.162,-5.513,0.216,138.058,0.605,69
+4,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,5,0VsGaRXR5WAzpu51unJTis,Best Part of Me (feat. YEBBA),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.758,0.565,0.243,8.82e-06,0.285,-8.367,0.0317,81.655,0.239,67
+5,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,6,0hVXuCcriWRGvwMV1r5Yn9,I Don't Care (with Justin Bieber),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0902,0.798,0.676,0.0,0.0894,-5.041,0.0442,101.956,0.843,75
+6,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,7,1DhRbox3xkceP64k3JeYfW,Antisocial (with Travis Scott),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.132,0.716,0.823,0.0,0.361,-5.313,0.0495,151.957,0.91,66
+7,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,8,0AtP8EkGPn6SwxKDaUuXec,Remember The Name (feat. Eminem & 50 Cent),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.135,0.852,0.666,0.0,0.798,-6.923,0.184,91.046,0.726,67
+8,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,9,1Bdptrvb7nQkq8kCw3siE9,Feels (feat. Young Thug & J Hus),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.112,0.665,0.68,0.0,0.096,-4.898,0.291,91.667,0.69,56
+9,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,10,5T03itPFOPGGkvVPvPiyla,Put It All on Me (feat. Ella Mai),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.256,0.627,0.594,0.0,0.373,-8.306,0.0479,101.007,0.388,61
+10,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,11,2qRN7PWiHRLprw4FpDeI9N,Nothing On You (feat. Paulo Londra & Dave),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.333,0.747,0.649,0.0,0.172,-6.218,0.218,88.011,0.84,62
+11,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,12,3FHXUqaUer9o231Je1zxIN,I Don't Want Your Money (feat. H.E.R.),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.31,0.468,0.63,0.0,0.137,-6.536,0.0843,91.419,0.762,57
+12,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,13,4vIKzWqtn44umal5jXq4wE,1000 Nights (feat. Meek Mill & A Boogie Wit da Hoodie),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.467,0.778,0.589,0.0,0.0902,-5.548,0.269,98.001,0.513,58
+13,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,14,5d1rmWWF1725tnYjq6rMDB,Way To Break My Heart (feat. Skrillex),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.11,0.726,0.731,3.45e-06,0.0928,-6.298,0.159,170.125,0.437,56
+14,No.6 Collaborations Project,spotify:album:3oIFxDIo2fwuk4lwCmFZCx,15,7hvO2qCwJVZxiyoA7c9i5d,BLOW (with Chris Stapleton & Bruno Mars),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.000245,0.631,0.796,0.0108,0.38,-5.35,0.0401,92.47,0.596,60
+15,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,1,3aCjJgEAW018s9BuGiAgob,Beautiful People (feat. Khalid),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.124,0.64,0.648,0.0,0.0802,-8.113,0.187,92.977,0.548,28
+16,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,2,71BgDMZ6FbL5AKcERaxJ6n,South of the Border (feat. Camila Cabello & Cardi B),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.148,0.857,0.621,0.0,0.0865,-6.376,0.0824,97.986,0.668,29
+17,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,3,1oH5Mg9dyAj15lWUmXvmFW,Cross Me (feat. Chance the Rapper & PnB Rock),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.21,0.654,0.784,0.0,0.0666,-6.389,0.181,94.877,0.603,41
+18,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,4,3ERZA2UXA1cD5WAELjSpa6,Take Me Back to London (feat. Stormzy),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.219,0.885,0.762,0.0,0.162,-5.513,0.216,138.059,0.605,38
+19,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,5,5MLjVCMjJKwXLk6JmPeOPe,Best Part of Me (feat. YEBBA),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.762,0.565,0.242,9.3e-06,0.285,-8.367,0.0318,81.657,0.237,25
+20,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,6,1Tu5fpEjGl78R4mA6pQ7Tk,I Don't Care (with Justin Bieber),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0912,0.798,0.675,0.0,0.0894,-5.041,0.0442,101.956,0.842,27
+21,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,7,0Tdh0VTkzmPGeAQIXHYhVJ,Antisocial (with Travis Scott),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.133,0.715,0.823,0.0,0.361,-5.313,0.0495,151.956,0.91,50
+22,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,8,663iGCIjbc3DfpGOooKvDR,Remember The Name (feat. Eminem & 50 Cent),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.196,0.863,0.649,0.0,0.783,-7.194,0.156,91.018,0.761,34
+23,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,9,4qhw4uLzaW0TjgGvTxJ2Pu,Feels (feat. Young Thug & J Hus),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.112,0.665,0.68,0.0,0.096,-4.899,0.29,91.67,0.69,25
+24,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,10,2neYa7NyqIuPR67tehREKZ,Put It All on Me (feat. Ella Mai),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.253,0.627,0.594,0.0,0.373,-8.306,0.0478,101.008,0.389,47
+25,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,11,3uPt20NZVz4AOhFPUzzEv6,Nothing On You (feat. Paulo Londra & Dave),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.333,0.747,0.649,0.0,0.172,-6.218,0.219,88.011,0.84,35
+26,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,12,5hNGxdPZJ4tLLkbIHHVYJp,I Don't Want Your Money (feat. H.E.R.),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.314,0.469,0.631,0.0,0.14,-6.569,0.0853,91.418,0.763,25
+27,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,13,6n1j8k7ApN8ZkjG2Yczyei,1000 Nights (feat. Meek Mill & A Boogie Wit da Hoodie),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.467,0.778,0.59,0.0,0.0902,-5.548,0.27,97.995,0.515,24
+28,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,14,3ScM8IvndjLcJ9VyAc4EnS,Way To Break My Heart (feat. Skrillex),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.11,0.726,0.731,3.21e-06,0.0928,-6.304,0.159,170.125,0.43,43
+29,No.6 Collaborations Project,spotify:album:5oUZ9TEZR3wOdvqzowuNwl,15,3U0oiHpXqrIS3AsOvkaS08,BLOW (with Chris Stapleton & Bruno Mars),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.000245,0.631,0.796,0.0115,0.38,-5.35,0.0401,92.469,0.596,26
+30,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,1,7oolFzHipTMg2nL7shhdz2,Eraser,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.086,0.64,0.812,0.0,0.0509,-5.647,0.0834,86.013,0.914,61
+31,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,2,6PCUP3dWmTjcTtXY02oFdT,Castle on the Hill,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0232,0.461,0.834,1.14e-05,0.14,-4.868,0.0989,135.007,0.471,76
+32,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,3,51ChrwmUPDJvedPQnIU8Ls,Dive,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.355,0.761,0.386,0.0,0.0953,-6.158,0.0399,134.943,0.526,73
+33,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,4,7qiZfU4dY1lWllzX7mPBI3,Shape of You,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.581,0.825,0.652,0.0,0.0931,-3.183,0.0802,95.977,0.931,83
+34,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,5,0tgVpDi06FyKpA1z0VMD4v,Perfect,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.163,0.599,0.448,0.0,0.106,-6.312,0.0232,95.05,0.168,85
+35,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,6,0afhq8XCExXpqazXczTSve,Galway Girl,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0735,0.624,0.876,0.0,0.327,-3.374,0.1,99.943,0.781,77
+36,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,7,2RttW7RAu5nOAfq6YFvApB,Happier,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.536,0.522,0.385,0.0,0.135,-7.355,0.0288,89.792,0.236,80
+37,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,8,5HDPtsnyb3maFmPL8LLUTG,New Man,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0559,0.78,0.745,0.0,0.0595,-3.97,0.145,94.026,0.862,66
+38,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,9,2dfHh7ECGxfNqZTQno09Vk,Hearts Don't Break Around Here,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.719,0.604,0.366,0.0,0.162,-7.881,0.0267,105.177,0.181,67
+39,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,10,2pJZ1v8HezrAoZ0Fhzby92,What Do I Know?,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.251,0.838,0.492,0.0,0.262,-5.69,0.038,115.092,0.895,68
+40,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,11,6PJ8FF6UR8FZXfEvpHkIVN,How Would You Feel (Paean),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.424,0.617,0.439,0.0,0.127,-5.63,0.0269,139.979,0.242,67
+41,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,12,4VuS959DSpr82t3qBqCrWG,Supermarket Flowers,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.914,0.589,0.242,0.0,0.0887,-10.517,0.0442,89.749,0.257,76
+42,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,13,3Lfiu5sZ4M4B6JaKMBc0FU,Barcelona,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.448,0.747,0.76,0.0,0.153,-4.294,0.187,99.975,0.682,66
+43,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,14,6SznMYPQJHzr3IwsAHLId2,Bibia Be Ye Ye,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.52,0.738,0.677,0.0,0.133,-5.121,0.0824,127.067,0.882,65
+44,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,15,35QZaWQRkmnAVqBF1TLCxQ,Nancy Mulligan,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.117,0.68,0.852,0.0,0.0866,-4.35,0.0349,101.993,0.858,64
+45,÷ (Deluxe),spotify:album:3T4tUhGYeRNVUGevb0wThu,16,6TIU9Ehmi6dMzZK73Ym4yj,Save Myself,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.85,0.552,0.29,0.0,0.227,-5.617,0.0448,78.842,0.481,66
+46,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,1,5mUBAfEctquPCp3oe8CRZX,One,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,47
+47,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,2,05AXbdKlVvkT6IJlYAfuap,I'm a Mess,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,46
+48,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,3,5sA4n1wolLZk2YpBLbsCqj,Sing,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,46
+49,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,4,5LTzAKRZ2Xct8d6vVrErha,Don't,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,47
+50,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,5,3b2b3rMn0LflqsIW0g5lDl,Nina,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,42
+51,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,6,0ch8PUB8JRTMJqmdmfY46U,Photograph,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,51
+52,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,7,2mHWjchw9pqHBvHh7iKoco,Bloodstream,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,45
+53,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,8,5rYipCuUMXmKr5XM3eDC1r,Tenerife Sea,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,61
+54,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,9,1QaVYz0KPmXtdjVcm3P4oj,Runaway,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,43
+55,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,10,01cCX1iNks6Ob0Ynwwg8tX,The Man,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,40
+56,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,11,2L6ypr3l5t5mLkY3lXIpZE,Thinking out Loud,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,54
+57,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,12,0jnNYYeMqMdreIsN22PzGk,Afire Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,43
+58,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,13,3AhWpAMU0lj0CPMZv3Krde,Take It Back,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,39
+59,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,14,5Httl4rILlQs8FednTJ2uE,Shirtsleeves,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,39
+60,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,15,60k4LTrhZ7xX0tSYZkXsuK,Even My Dad Does Sometimes,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,40
+61,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,16,2q5rFdBjUn0e9EL6mHb4Jy,I See Fire,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0
+62,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,17,3B8BedGdUGT1Ixog6v8ua8,English Rose,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0977,0.579,0.649,0.0,0.125,-6.522,0.0352,114.593,0.184,44
+63,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,18,4w098dhR8GON00jYL1vCv4,Touch and Go,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.294,0.812,0.542,6.92e-05,0.141,-5.403,0.0444,110.268,0.733,58
+64,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,19,5FBaWYaoA8j260ctveOa4a,New York,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.707,0.728,0.461,0.0,0.113,-8.726,0.0395,86.014,0.474,46
+65,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,20,4rhcqdXTzNX9uZRZybj3UP,Make It Rain,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.791,0.618,0.239,0.0,0.1,-8.371,0.0274,96.846,0.327,54
+66,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,21,0CjyIDOzzujwovFiCHe1LS,Parting Glass - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.598,0.389,0.369,0.0,0.96,-6.886,0.0404,102.625,0.541,41
+67,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,22,1nVe4FCdf6dVBkzAF741IC,Small Bump - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.219,0.69,0.696,0.0,0.958,-7.432,0.183,125.735,0.237,40
+68,x (Wembley Edition),spotify:album:0MeOIA0wwSa6nW79jy8QcZ,23,1eIcWCHqpW2qlWwNOH3dL1,Lay It All on Me (feat. Ed Sheeran),Rudimental,4WN5naL3ofxrVBgFpguzKo,0.141,0.669,0.747,0.0,0.185,-7.108,0.0428,122.531,0.483,42
+69,5,spotify:album:2hyDesSAYNefikDJXlqhPE,1,6x44NmhdsmgRzG07kzqOO6,"You Need Me, I Don't Need You",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.692,0.689,0.563,0.0,0.0579,-5.539,0.275,129.517,0.819,42
+70,5,spotify:album:2hyDesSAYNefikDJXlqhPE,2,24ha18yq0t7XnZ9EgJ7HYb,So,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.853,0.521,0.133,0.0,0.35,-10.599,0.0431,140.077,0.391,45
+71,5,spotify:album:2hyDesSAYNefikDJXlqhPE,3,6ThrnYkLPlKar6dUIggR6Q,Be Like You,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.715,0.671,0.388,0.0,0.192,-6.516,0.0762,105.869,0.59,44
+72,5,spotify:album:2hyDesSAYNefikDJXlqhPE,4,4oCmusomhJaDXUF9OttwQ5,The City,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.74,0.689,0.369,0.0,0.122,-7.183,0.357,102.565,0.701,40
+73,5,spotify:album:2hyDesSAYNefikDJXlqhPE,5,0Z0GZkW8QCohqGChLmWixd,Sunburn,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.842,0.533,0.17,5.03e-06,0.113,-11.342,0.0668,116.852,0.33,43
+74,5,spotify:album:2hyDesSAYNefikDJXlqhPE,1,4Ur8TgNrZyUuRBWjsQfgGe,Let It Out,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.645,0.731,0.603,0.011,0.147,-7.656,0.0378,96.973,0.619,43
+75,5,spotify:album:2hyDesSAYNefikDJXlqhPE,2,5YS8NjfOuoFP1vi5wglycc,Homeless,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.519,0.754,0.636,0.0,0.108,-7.129,0.193,90.001,0.875,40
+76,5,spotify:album:2hyDesSAYNefikDJXlqhPE,3,5DizlXTwJjjwxxqGNChcvO,Little Bird,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.569,0.826,0.485,0.0,0.107,-7.424,0.0354,104.011,0.278,42
+77,5,spotify:album:2hyDesSAYNefikDJXlqhPE,4,2Z7RLfJdXXkXUmvMJxkNJo,Sofa,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.14,0.646,0.65,9.65e-06,0.0999,-6.491,0.0278,100.05,0.52,41
+78,5,spotify:album:2hyDesSAYNefikDJXlqhPE,5,1IbGB3FLPDJjBX5i3S57rA,One Night,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.379,0.781,0.836,0.0,0.289,-5.496,0.0658,94.989,0.636,40
+79,5,spotify:album:2hyDesSAYNefikDJXlqhPE,6,7udHOd6OUjUIhSjpTo4cl4,Firefly,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.886,0.602,0.31,0.000142,0.105,-11.469,0.0373,159.917,0.36,46
+80,5,spotify:album:2hyDesSAYNefikDJXlqhPE,7,7cCsAsOKvFdOjQHpADku4O,The City - Live at Sticky Studios; Loose Change EP,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.507,0.712,0.569,0.0,0.412,-6.032,0.204,105.032,0.837,37
+81,5,spotify:album:2hyDesSAYNefikDJXlqhPE,8,0dQ5jI1SGoAX2QT6N95tad,Firefly - Bravado Dubstep Remix,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.28,0.629,0.663,0.711,0.0811,-10.516,0.0283,139.982,0.49,35
+82,5,spotify:album:2hyDesSAYNefikDJXlqhPE,1,5JTTFF4bKTIqrhRmmOgXXo,Fall,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.632,0.559,0.283,0.00127,0.126,-9.827,0.0323,82.552,0.188,44
+83,5,spotify:album:2hyDesSAYNefikDJXlqhPE,2,4I7VRMbaqi6GdSkaSxe1he,Fire Alarms,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.772,0.602,0.286,0.0,0.162,-9.886,0.0296,102.009,0.379,40
+84,5,spotify:album:2hyDesSAYNefikDJXlqhPE,3,0xaPq2EZ9pQ9vLuxy6MCHH,Where We Land,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.838,0.68,0.248,4.86e-06,0.0907,-11.592,0.031,119.944,0.275,42
+85,5,spotify:album:2hyDesSAYNefikDJXlqhPE,4,4THoSHxiabL1rd59iVWu2T,Cold Coffee,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.453,0.544,0.529,0.0,0.131,-6.753,0.0256,92.936,0.403,52
+86,5,spotify:album:2hyDesSAYNefikDJXlqhPE,5,3ICdPHubhqTJ4Lm9NEb2W3,She,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.811,0.573,0.344,0.0,0.13,-10.91,0.0361,157.783,0.377,47
+87,5,spotify:album:2hyDesSAYNefikDJXlqhPE,1,3nwbntyppUfLEMorPB40HN,The A Team - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.728,0.402,0.339,0.0,0.833,-9.574,0.0498,83.194,0.496,37
+88,5,spotify:album:2hyDesSAYNefikDJXlqhPE,2,0ewWskuCnqrTFvMUqtAQwF,Homeless - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.62,0.601,0.879,0.0,0.464,-5.215,0.0945,99.377,0.713,34
+89,5,spotify:album:2hyDesSAYNefikDJXlqhPE,3,4HQcJua3wHJLvBvc3gKJTr,The City - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.545,0.602,0.8,0.0,0.656,-5.91,0.0734,109.921,0.81,34
+90,5,spotify:album:2hyDesSAYNefikDJXlqhPE,4,1lG7S133U7vKOXy0n8WeEL,Fall - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.807,0.494,0.0964,7.13e-05,0.936,-16.691,0.0532,86.676,0.393,34
+91,5,spotify:album:2hyDesSAYNefikDJXlqhPE,5,2c3PILT3ocB6B47pNzi9qs,Wake Me Up - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.792,0.616,0.141,0.0,0.897,-17.161,0.532,107.874,0.361,35
+92,5,spotify:album:2hyDesSAYNefikDJXlqhPE,6,2GGOQWJo7FGEQojc7baekK,"You Need Me, I Don't Need You - Live at the Bedford",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.48,0.506,0.911,0.0,0.696,-4.779,0.23,105.475,0.781,36
+93,5,spotify:album:2hyDesSAYNefikDJXlqhPE,1,5cth8vxCckeYgE10nX58re,Lately (feat. Devlin),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0928,0.718,0.82,0.0,0.391,-5.552,0.103,90.013,0.329,34
+94,5,spotify:album:2hyDesSAYNefikDJXlqhPE,2,6dSgNLxLDgTaPQlB15yOOK,You (feat. Wiley),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.386,0.799,0.532,0.00017,0.0978,-9.472,0.0707,100.032,0.189,34
+95,5,spotify:album:2hyDesSAYNefikDJXlqhPE,3,77m6ySUV5ZpOdaIsygDYMZ,Family (feat. P Money),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.515,0.476,0.704,0.0,0.094,-5.411,0.278,140.396,0.297,34
+96,5,spotify:album:2hyDesSAYNefikDJXlqhPE,4,3MUKlVjVJBvPf4flrDq8KB,Radio (feat. JME),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.214,0.693,0.833,0.0,0.117,-5.408,0.263,99.901,0.759,34
+97,5,spotify:album:2hyDesSAYNefikDJXlqhPE,5,7bXTXa2zmMuRZPCBEWcjHw,Little Lady (feat. Mikill Pane),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.731,0.437,0.5,0.0,0.157,-7.103,0.105,85.293,0.437,36
+98,5,spotify:album:2hyDesSAYNefikDJXlqhPE,6,0dNt7lZks5TVxiGaCIY1yZ,Drown Me Out (feat. Ghetts) - + Ghetts,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0282,0.511,0.91,0.0,0.127,-6.186,0.116,140.147,0.426,33
+99,5,spotify:album:2hyDesSAYNefikDJXlqhPE,7,4SVST4FR6Gj74UJCzCiOSX,"Nightmares (feat. Random Impulse, Sway & Wretch 32)",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.101,0.855,0.678,0.00232,0.0964,-6.864,0.052,120.012,0.429,33
+100,5,spotify:album:2hyDesSAYNefikDJXlqhPE,8,1O5u4AShfndSLCnVqlV0h2,Goodbye to You (feat. Dot Rotten),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.267,0.64,0.664,0.0,0.329,-7.812,0.152,140.007,0.275,34
+101,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,1,5TvFfDlVoUWZvfqrhTJzD7,One,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,63
+102,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,2,0xCA70t1ZA4fa9UOE0lIJm,I'm a Mess,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,65
+103,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,3,6K8qKeWo5MsFED7wCR6Kop,Sing,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,69
+104,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,4,1huvTbEYtgltjQRXzrNKGi,Don't,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,71
+105,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,5,3GKSfF6c3Rv3a1knSjxnXa,Nina,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,56
+106,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,6,1HNkqx9Ahdgi1Ixy2xkKkL,Photograph,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,82
+107,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,7,5v4sZRuvWDcisoOk1PFv6T,Bloodstream,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,66
+108,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,8,1HbcclMpw0q2WDWpdGCKdS,Tenerife Sea,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,68
+109,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,9,2VmA7bm5ECiYZfw7x4Nzku,Runaway,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,57
+110,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,10,1gHF0I223J5pv06SuBcmkz,The Man,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,54
+111,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,11,34gCuhDGsG4bRPIf9bb02f,Thinking out Loud,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,82
+112,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,12,12B0Twa9kRz45Xw2PgXHJm,Afire Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,59
+113,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,13,2dmOWlEHrP266Qgz6wnUrd,Take It Back,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,54
+114,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,14,7awwmuGslmuyhnlpFipDqk,Shirtsleeves,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,53
+115,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,15,0N5zjRnf8AreOm95iSBXF4,Even My Dad Does Sometimes,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,54
+116,x (Deluxe Edition),spotify:album:1xn54DMo2qIqBuMqHtUsFd,16,5pY3ovFxbvAg7reGZjJQSp,I See Fire,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0
+117,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,1,6l7Zg2JkFvg9Mpj0WDQxwl,One,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,27
+118,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,2,4fqeZvhMV3AsB4rQLOrsEW,I'm a Mess,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,21
+119,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,3,4hI1dTlDeXUL9dIYH0ikWR,Sing,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,27
+120,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,4,1cNt4WJWmBiLnYTah7aegh,Don't,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,28
+121,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,5,0akoVJDdLJYVhVFoPmuTxP,Nina,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,16
+122,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,6,1dyRiQZRGHZvesHh2hbp8g,Photograph,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,48
+123,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,7,4sefh9p6NNR7zTiRSmN8nH,Bloodstream,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,21
+124,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,8,1t8Ywsv2dBMVeYLdfHmLgo,Tenerife Sea,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,36
+125,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,9,7dcWyJWu0XW4cg36SQIKVc,Runaway,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,15
+126,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,10,4kUAlwlLJaWIIHtZduHMbw,The Man,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,14
+127,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,11,3cw4Y2ziYYiJV49bWN5H1D,Thinking out Loud,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,48
+128,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,12,1qH5GarhIy9iiFElL2y4Hj,Afire Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,16
+129,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,13,586AZMPJBHLjKEzigjxILu,Take It Back,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,14
+130,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,14,04FdImDV8aKUKuDDMXcpKU,Shirtsleeves,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,12
+131,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,15,1VlFgG9WZTfPQMEA8vOzGf,Even My Dad Does Sometimes,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,13
+132,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,16,1ldHWOO03QagIbOiic92Pd,I See Fire,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0
+133,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,17,3iyJ2Yl3bQNQhHht2lWLnL,Reuf (feat. Ed Sheeran),Nekfeu,4LXBc13z5EWsc5N32bLxfH,0.0854,0.767,0.694,0.0,0.118,-7.12,0.0651,120.046,0.339,24
+134,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,18,2pdtWTQJda6jQy66NiFWio,English Rose,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0977,0.579,0.649,0.0,0.125,-6.522,0.0352,114.593,0.184,17
+135,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,19,68IRx0XOiSgVNtBcAlkB3K,Touch and Go,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.294,0.812,0.542,6.92e-05,0.141,-5.403,0.0444,110.268,0.733,33
+136,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,20,1wDEQwINUZNhUjSkU5kMRr,New York,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.707,0.728,0.461,0.0,0.113,-8.726,0.0395,86.014,0.474,28
+137,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,21,3CmoSi5r03mp6RdBCpggHP,Make It Rain,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.791,0.618,0.239,0.0,0.1,-8.371,0.0274,96.846,0.327,33
+138,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,22,1VmHonJjTQo0OJHVLQjBMY,Parting Glass - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.598,0.389,0.369,0.0,0.96,-6.886,0.0404,102.625,0.541,15
+139,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,23,0m6DbEO7vkZlQsGAuEaLYU,Small Bump - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.219,0.69,0.696,0.0,0.958,-7.432,0.183,125.735,0.237,14
+140,x (Wembley Edition),spotify:album:0Yi8StK0Si3u2bLr3Qsm2Q,24,0WIsN0rpnUXEypLqlrV2mX,Lay It All on Me (feat. Ed Sheeran),Rudimental,4WN5naL3ofxrVBgFpguzKo,0.141,0.669,0.747,0.0,0.185,-7.108,0.0428,122.531,0.483,16
+141,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,1,2TwyftP8yhuuHyrGVZz4Ir,One,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,33
+142,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,2,1rAWwaYjVDcNG4hIaWIPhY,I'm a Mess,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,31
+143,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,3,52G4w1FDeljBW79lMXcLtI,Sing,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,34
+144,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,4,6IiZX8IDn3ax5CTMOC4tH9,Don't,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,37
+145,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,5,38BwY54pozaTmM3UhRLWQm,Nina,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,23
+146,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,6,3FSPaBp49Clqq2p4zc9dbA,Photograph,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,53
+147,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,7,7gtjNb0PkQwaUxL4z5sT9L,Bloodstream,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,30
+148,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,8,1RbNZI6pKMLvYzby6HTw9j,Tenerife Sea,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,43
+149,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,9,56pwC8gGzNF4sPNmEnIHCc,Runaway,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,23
+150,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,10,6IOAFymj4qjnMUpOSmBHTd,The Man,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,20
+151,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,11,0k4nrrCsMr0Tao5WvQ8Osq,Thinking out Loud,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,54
+152,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,12,3A94XWlOQYgKidjJbKb8rH,Afire Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,25
+153,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,13,33JmhVwIvrbOuGf9UuTSRN,Take It Back,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,21
+154,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,14,6IUJwjfvkxsuTncDeEt2Ih,Shirtsleeves,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,20
+155,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,15,5ySy4cN3ISIfiDvIKuN0bu,Even My Dad Does Sometimes,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,20
+156,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,16,46EPspYaDHR8KGmKJM8Sih,I See Fire,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0
+157,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,17,4OfhH0rJ8Dg0cLwtC0cRk2,Photograph - Felix Jaehn Remix,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0997,0.726,0.697,0.00733,0.0823,-6.257,0.0404,120.004,0.54,34
+158,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,18,7rxLRLFFjdiBWBKWDd6NMz,English Rose,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0977,0.579,0.649,0.0,0.125,-6.522,0.0352,114.593,0.184,27
+159,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,19,6hk0ff9xpK4WLcoRICVtw7,Touch and Go,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.294,0.812,0.542,6.92e-05,0.141,-5.403,0.0444,110.268,0.733,40
+160,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,20,6afE68EYdFtctKwjMVC6yP,New York,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.707,0.728,0.461,0.0,0.113,-8.726,0.0395,86.014,0.474,31
+161,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,21,7K8jxqCG29KUi21SqsvDfE,Make It Rain,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.791,0.618,0.239,0.0,0.1,-8.371,0.0274,96.846,0.327,38
+162,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,22,5Efm0TRugj7QE2Artu2BZg,Parting Glass - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.598,0.389,0.369,0.0,0.96,-6.886,0.0404,102.625,0.541,23
+163,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,23,6SXzPvPSZE4n7KU5bm5tWb,Small Bump - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.219,0.69,0.696,0.0,0.958,-7.432,0.183,125.735,0.237,22
+164,x (Wembley Edition),spotify:album:3hA2oZbZwHU8tSPBFIZhFr,24,5OI4ZOBm2XUuBiVKk6ugqK,Lay It All on Me (feat. Ed Sheeran),Rudimental,4WN5naL3ofxrVBgFpguzKo,0.141,0.669,0.747,0.0,0.185,-7.108,0.0428,122.531,0.483,23
+165,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,1,0A2J5TumCpT4aJVvQHNEQW,One,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,46
+166,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,2,3KiktyOxQd2Z0bmnabgRq2,I'm a Mess,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,40
+167,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,3,6u0oHknFYrnUd42A6rvFly,Sing,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,43
+168,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,4,6gTJaPuj8DT8RjuDJyBgzP,Don't,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,50
+169,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,5,3THTZMkVV2onr7xM5yb6WZ,Nina,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,32
+170,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,6,6fxVffaTuwjgEk5h9QyRjy,Photograph,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,65
+171,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,7,5mxTOMM0NiRud8VdBxbA2o,Bloodstream,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,36
+172,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,8,6vSwxzO2Qf4BinHSXRwZJe,Tenerife Sea,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,54
+173,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,9,2CW1geAxlM04INRmcoytvW,Runaway,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,33
+174,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,10,124Ym5jD2no2GAjZiEbw94,The Man,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,30
+175,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,11,1Slwb6dOYkBlWal1PGtnNg,Thinking out Loud,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,66
+176,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,12,6Tb6jpTsEMuBnxYo2HuSiK,Afire Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,37
+177,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,13,3zvc53juLgo3LibcwGBDqn,Take It Back,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,31
+178,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,14,3hRWv9DGBOc1ge8nMolCHp,Shirtsleeves,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,31
+179,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,15,7Clb8su2UxUJ4CQUtDW2UZ,Even My Dad Does Sometimes,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,34
+180,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,16,1d1sMeH6jxPPxSFO7T0nDq,I See Fire,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0
+181,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,17,3Th56VIq2sEaEmPPETu7p5,All of the Stars,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.00886,0.54,0.557,0.000182,0.307,-6.097,0.0259,75.035,0.287,56
+182,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,18,2tLqh0Y49XoaM8fYz1VFR5,English Rose,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0977,0.579,0.649,0.0,0.125,-6.522,0.0352,114.593,0.184,37
+183,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,19,763p5nkQytkOE7xmsFyu8y,Touch and Go,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.294,0.812,0.542,6.92e-05,0.141,-5.403,0.0444,110.268,0.733,49
+184,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,20,0NJDrEZdTbVPMKC0Zbglgn,New York,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.707,0.728,0.461,0.0,0.113,-8.726,0.0395,86.014,0.474,38
+185,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,21,5puU24G3lHVsUXPAWW2ZpV,Make It Rain,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.791,0.618,0.239,0.0,0.1,-8.371,0.0274,96.846,0.327,51
+186,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,22,74sKqdbIzz8Q5k1uFGQIW7,Parting Glass - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.598,0.389,0.369,0.0,0.96,-6.886,0.0404,102.625,0.541,33
+187,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,23,4B1EYMTYNUfwRoD9MARPgT,Small Bump - Live at Wembley Stadium,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.219,0.69,0.696,0.0,0.958,-7.432,0.183,125.735,0.237,29
+188,x (Wembley Edition),spotify:album:6NoBzYmh5gUusGPCfg0pct,24,0vbbhcA6okLzvsy6WSTlLg,Lay It All on Me (feat. Ed Sheeran),Rudimental,4WN5naL3ofxrVBgFpguzKo,0.141,0.669,0.747,0.0,0.185,-7.108,0.0428,122.531,0.483,40
+189,Live at the Bedford,spotify:album:4JUtnlZKdLr01xEIymhm0G,1,6JUGrUnAms0o3uGVIhkAyH,The A Team - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.728,0.402,0.339,0.0,0.833,-9.574,0.0498,83.194,0.496,37
+190,Live at the Bedford,spotify:album:4JUtnlZKdLr01xEIymhm0G,2,0T0wYEzpL46dCaTL1DLCyD,Homeless - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.62,0.601,0.879,0.0,0.464,-5.215,0.0945,99.377,0.713,37
+191,Live at the Bedford,spotify:album:4JUtnlZKdLr01xEIymhm0G,3,7JE96R5PJCWQ9Cm3JQXYuH,The City - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.545,0.602,0.8,0.0,0.656,-5.91,0.0734,109.921,0.81,34
+192,Live at the Bedford,spotify:album:4JUtnlZKdLr01xEIymhm0G,4,1YM4HlWW3vvrnWdf9N7Xi2,Fall - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.807,0.494,0.0964,7.13e-05,0.936,-16.691,0.0532,86.676,0.393,34
+193,Live at the Bedford,spotify:album:4JUtnlZKdLr01xEIymhm0G,5,7GtrkWkk5MxDaIlGOr7UU9,Wake Me Up - Live at the Bedford,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.792,0.616,0.141,0.0,0.897,-17.161,0.532,107.874,0.361,37
+194,Live at the Bedford,spotify:album:4JUtnlZKdLr01xEIymhm0G,6,5rJDpFuffh8UFEKqvzCAZP,"You Need Me, I Don't Need You - Live at the Bedford",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.48,0.506,0.911,0.0,0.696,-4.779,0.23,105.475,0.781,38
+195,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,1,69RasNFxqhiyy75JDHsrIS,Let It Out,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.645,0.731,0.603,0.011,0.147,-7.656,0.0378,96.973,0.619,42
+196,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,2,0jtTK6XjYj2L3Ge6jyK2sr,Homeless,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.519,0.754,0.636,0.0,0.108,-7.129,0.193,90.001,0.875,40
+197,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,3,7sGK98k8lv3hzRznoN909t,Little Bird,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.569,0.826,0.485,0.0,0.107,-7.424,0.0354,104.011,0.278,43
+198,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,4,5VAd82Nigp6Qdbl2zln1cl,Sofa,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.14,0.646,0.65,9.65e-06,0.0999,-6.491,0.0278,100.05,0.52,40
+199,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,5,0CNrpbpJ9HsFffF9hqWIIe,One Night,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.379,0.781,0.836,0.0,0.289,-5.496,0.0658,94.989,0.636,43
+200,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,6,4fZscNFYKoPIDHrgXxdacR,Firefly,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.886,0.602,0.31,0.000142,0.105,-11.469,0.0373,159.917,0.36,45
+201,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,7,1Fj5Hfda761tgxKbJUlFxN,The City - Live at Sticky Studios; Loose Change EP,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.507,0.712,0.569,0.0,0.412,-6.032,0.204,105.032,0.837,36
+202,Loose Change,spotify:album:3QbPtoOWiJqZurXXxJwaOD,8,1qjnGMSchVVfePsMV0UZ9b,Firefly - Bravado Dubstep Remix,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.28,0.629,0.663,0.711,0.0811,-10.516,0.0283,139.982,0.49,34
+203,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,1,3cQddetSMtHoDJT4YS70Vp,The A Team,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.669,0.642,0.289,0.0,0.18,-9.918,0.0367,84.996,0.407,27
+204,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,2,0B14hEVWuos2NRdgVUpKtP,Drunk,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.419,0.733,0.652,2.37e-06,0.521,-9.101,0.0696,99.998,0.459,16
+205,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,3,12V7Uz9YopIt6ZURov7g1s,U.N.I.,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.323,0.422,0.405,0.0,0.15,-11.126,0.101,74.13,0.578,15
+206,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,4,5alqTU4TRE2jPpsAagW4NC,Grade 8,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0446,0.74,0.807,4.02e-05,0.0538,-9.976,0.0363,101.042,0.781,14
+207,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,5,7C5ODj6rnZnsECe4Ay0KOu,Wake Me Up,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.902,0.616,0.209,0.0,0.139,-13.43,0.406,86.891,0.336,13
+208,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,6,5lehceWKvKqCscGpRdrfS7,Small Bump,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,15
+209,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,7,4m4lnXq7r50acaKs9wNcI9,This,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,12
+210,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,8,39DNz2B7RyuaFXTsB0muTe,The City,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0415,0.74,0.505,6.82e-05,0.0707,-10.338,0.0674,97.994,0.646,12
+211,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,9,47ltkdjKBMHelkhJavYLQ4,Lego House,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.562,0.592,0.637,0.0,0.13,-8.48,0.0992,159.701,0.565,18
+212,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,10,25PFoRgpgwr2QKzbjl30tl,"You Need Me, I Don't Need You",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.162,0.749,0.837,0.0,0.525,-8.837,0.0512,103.483,0.927,35
+213,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,11,5EL6C2JtzpMCL7mZ3AZbZx,Kiss Me,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,15
+214,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,12,0jR1D6yIN8T7Fno9TNrDi8,Give Me Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.694,0.526,0.328,0.0,0.112,-9.864,0.0461,116.068,0.11,16
+215,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,13,57MKCEJxfMY7vB4mWFBrQH,Autumn Leaves - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.892,0.555,0.257,1.42e-06,0.124,-12.637,0.0299,89.013,0.431,24
+216,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,14,4hkIZVPU4Enh78eNyLqjpV,Little Bird - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.565,0.843,0.425,0.0,0.102,-8.676,0.0352,104.02,0.284,14
+217,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,15,6fumTSGaL6QHcUcbI7ELIV,Gold Rush - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.729,0.74,0.248,0.0,0.141,-12.659,0.109,83.786,0.889,14
+218,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,16,3SIaRV6oIVbxxENxm7ypPU,Sunburn - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.865,0.464,0.098,0.0,0.101,-12.119,0.0376,78.864,0.234,13
+219,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,17,57HTHnbsK9SaWdBRj2CmzT,Sofa,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.14,0.646,0.65,9.65e-06,0.0999,-6.491,0.0278,100.05,0.52,12
+220,+,spotify:album:1slAnKc9Ykyght8EI9Y0dM,18,36SjIT1EdKH8Y2ORpz1gla,Homeless,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.519,0.754,0.636,0.0,0.108,-7.129,0.193,90.001,0.875,12
+221,+,spotify:album:02pi98kE0nra0yBqCStzbC,1,1XpYodsD36XN7ygcdF7mJJ,The A Team,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.669,0.642,0.289,0.0,0.18,-9.918,0.0367,84.996,0.407,64
+222,+,spotify:album:02pi98kE0nra0yBqCStzbC,2,4RnCPWlBsY7oUDdyruod7Y,Drunk,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.419,0.733,0.652,2.37e-06,0.521,-9.101,0.0696,99.998,0.459,66
+223,+,spotify:album:02pi98kE0nra0yBqCStzbC,3,5Ukzlujip1Slqka5OY82YS,U.N.I.,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.323,0.422,0.405,0.0,0.15,-11.126,0.101,74.13,0.578,54
+224,+,spotify:album:02pi98kE0nra0yBqCStzbC,4,0obzwoGjXdORtAwYWZ9s53,Grade 8,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0446,0.74,0.807,4.02e-05,0.0538,-9.976,0.0363,101.042,0.781,51
+225,+,spotify:album:02pi98kE0nra0yBqCStzbC,5,0ygAYQQy7bfDN6gH640bbl,Wake Me Up,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.902,0.616,0.209,0.0,0.139,-13.43,0.406,86.891,0.336,55
+226,+,spotify:album:02pi98kE0nra0yBqCStzbC,6,4z1O25cq9g2kuJemmUxc21,Small Bump,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,64
+227,+,spotify:album:02pi98kE0nra0yBqCStzbC,7,0pJfsPQesJyCnR5XWZyvj9,This,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,53
+228,+,spotify:album:02pi98kE0nra0yBqCStzbC,8,4ucfQOYOe1Jz5KqCfpGobp,The City,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0415,0.74,0.505,6.82e-05,0.0707,-10.338,0.0674,97.994,0.646,49
+229,+,spotify:album:02pi98kE0nra0yBqCStzbC,9,5ubHAQtKuFfiG4FXfLP804,Lego House,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.562,0.592,0.637,0.0,0.13,-8.48,0.0992,159.701,0.565,71
+230,+,spotify:album:02pi98kE0nra0yBqCStzbC,10,5KL4iZkCTZyXl7KnHgfVDj,"You Need Me, I Don't Need You",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.162,0.749,0.837,0.0,0.525,-8.837,0.0512,103.483,0.927,63
+231,+,spotify:album:02pi98kE0nra0yBqCStzbC,11,0Tel1fmuCxEFV6wBLXsEdk,Kiss Me,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,71
+232,+,spotify:album:02pi98kE0nra0yBqCStzbC,12,0SuG9kyzGRpDqrCWtgD6Lq,Give Me Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.694,0.526,0.328,0.0,0.112,-9.864,0.0461,116.068,0.11,72
+233,+,spotify:album:02pi98kE0nra0yBqCStzbC,13,7iBSkXB0pTvZasOLf0Qxk9,Autumn Leaves - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.892,0.555,0.257,1.42e-06,0.124,-12.637,0.0299,89.013,0.431,56
+234,+,spotify:album:02pi98kE0nra0yBqCStzbC,14,4bcgRbGeq4IejesjsiHyTH,Little Bird - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.565,0.843,0.425,0.0,0.102,-8.676,0.0352,104.02,0.284,51
+235,+,spotify:album:02pi98kE0nra0yBqCStzbC,15,4mT5mVFaU7trA3UdbGqfB9,Gold Rush - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.729,0.74,0.248,0.0,0.141,-12.659,0.109,83.786,0.889,50
+236,+,spotify:album:02pi98kE0nra0yBqCStzbC,16,3YPiRYIUFlcQ0aaLGmeswS,Sunburn - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.865,0.464,0.098,0.0,0.101,-12.119,0.0376,78.864,0.234,49
+237,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,1,6wJhz2jABaX2oMChhGy39Y,The A Team,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.669,0.642,0.289,0.0,0.18,-9.918,0.0367,84.996,0.407,54
+238,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,2,2LzDXHMjn4jpJiO1V81OhK,Drunk,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.419,0.733,0.652,2.37e-06,0.521,-9.101,0.0696,99.998,0.459,42
+239,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,3,3AGozOFA08jVNIOxHMv4hA,U.N.I.,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.323,0.422,0.405,0.0,0.15,-11.126,0.101,74.13,0.578,30
+240,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,4,4zFbkkXyPHrCSXN3kIm47D,Grade 8,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0446,0.74,0.807,4.02e-05,0.0538,-9.976,0.0363,101.042,0.781,27
+241,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,5,1ZBwE2UcEeZzwakjfPtRHp,Wake Me Up,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.902,0.616,0.209,0.0,0.139,-13.43,0.406,86.891,0.336,33
+242,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,6,5TAgTVXiKaXiCUqILl7aVE,Small Bump,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,40
+243,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,7,3j6I4KxEZFAQpFA5WHX6Zt,This,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,31
+244,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,8,51KExPBAGd86taqU0xrnau,The City,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0415,0.74,0.505,6.82e-05,0.0707,-10.338,0.0674,97.994,0.646,26
+245,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,9,3cBHUfts3KKLqXTo8U91pz,Lego House,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.562,0.592,0.637,0.0,0.13,-8.48,0.0992,159.701,0.565,48
+246,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,10,16AS9gzcDOsIz9oPmRW4g1,"You Need Me, I Don't Need You",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.162,0.749,0.837,0.0,0.525,-8.837,0.0512,103.483,0.927,38
+247,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,11,557S0RTbb6PMZfc2g3YqKb,Kiss Me,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,48
+248,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,12,2U0n6b6sgtRHwvSTJuG2pH,Give Me Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.694,0.526,0.328,0.0,0.112,-9.864,0.0461,116.068,0.11,48
+249,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,13,7tFk6cR9MqWKEnWMuutGXy,Autumn Leaves - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.892,0.555,0.257,1.42e-06,0.124,-12.637,0.0299,89.013,0.431,34
+250,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,14,2c2ny8uV5nkQhaEo3zaARp,Little Bird - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.565,0.843,0.425,0.0,0.102,-8.676,0.0352,104.02,0.284,27
+251,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,15,3YOsRZUpAQougdziNH6C7A,Gold Rush - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.729,0.74,0.248,0.0,0.141,-12.659,0.109,83.786,0.889,27
+252,+,spotify:album:3w0VffyaakTvUtTwjPCo7Y,16,6KHPLmB7uU7zt8ZTlkRxsK,Sunburn - Deluxe Edition,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.865,0.464,0.098,0.0,0.101,-12.119,0.0376,78.864,0.234,28
+253,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,1,1VdZ0vKfR5jneCmWIUAMxK,The A Team,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.669,0.642,0.289,0.0,0.18,-9.918,0.0367,84.996,0.407,75
+254,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,2,51Be0m3caz9EourH3LIHvY,Drunk,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.419,0.733,0.652,2.37e-06,0.521,-9.101,0.0696,99.998,0.459,42
+255,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,3,7fVR8piTfS8dhqSzph50qB,U.N.I.,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.323,0.422,0.405,0.0,0.15,-11.126,0.101,74.13,0.578,34
+256,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,4,3OXzT07QntlOQEZRGtJ73b,Grade 8,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0446,0.74,0.807,4.02e-05,0.0538,-9.976,0.0363,101.042,0.781,33
+257,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,5,3bZTspAdEUAKc2M1Sle125,Wake Me Up,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.902,0.616,0.209,0.0,0.139,-13.43,0.406,86.891,0.336,34
+258,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,6,2sKgjO8vxk7znTpwNAptaW,Small Bump,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,41
+259,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,7,2aMkInuJrM9arjA8dpQJqC,This,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,35
+260,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,8,6j6pSj2RdGxtnOhxHsWqQZ,The City,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0415,0.74,0.505,6.82e-05,0.0707,-10.338,0.0674,97.994,0.646,30
+261,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,9,53Pgsvu3qSYO2aXt5J2vcL,Lego House,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.562,0.592,0.637,0.0,0.13,-8.48,0.0992,159.701,0.565,56
+262,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,10,2DCeRqdQkjtihpsv79TAJh,"You Need Me, I Don't Need You",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.162,0.749,0.837,0.0,0.525,-8.837,0.0512,103.483,0.927,34
+263,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,11,4mQCOxLRPvVGjsfKpOBSlN,Kiss Me,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,46
+264,+,spotify:album:0W5GGnapMz0VwemQvJDqa7,12,1NvOOkafczKxO5YXRR01ax,Give Me Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.694,0.526,0.328,0.0,0.112,-9.864,0.0461,116.068,0.11,46
+265,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,1,6dvPky6ZR02d1ObASRfqhX,The A Team,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.669,0.642,0.289,0.0,0.18,-9.918,0.0367,84.996,0.407,8
+266,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,2,33MQlWu37x8NF7HA6xRF2r,Drunk,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.419,0.733,0.652,2.37e-06,0.521,-9.101,0.0696,99.998,0.459,5
+267,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,3,43dlw45XtkAKN0iEAvlGfJ,U.N.I.,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.323,0.422,0.405,0.0,0.15,-11.126,0.101,74.13,0.578,3
+268,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,4,4DwDAeaFphuIGAdr8ZGLhx,Grade 8,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0446,0.74,0.807,4.02e-05,0.0538,-9.976,0.0363,101.042,0.781,3
+269,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,5,58pfwvs6i8CQWP32OxHniW,Wake Me Up,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.902,0.616,0.209,0.0,0.139,-13.43,0.406,86.891,0.336,5
+270,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,6,2oXCupdgrzbRRqDIi1sRGx,Small Bump,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,5
+271,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,7,76zEImWqjtCa4Ij1VGKHQX,This,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,3
+272,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,8,0LFfWKPv1AvA8lI1a2ziJY,The City,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0415,0.74,0.505,6.82e-05,0.0707,-10.338,0.0674,97.994,0.646,2
+273,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,9,5WfGV2xc2jm0XeO8XDKhzp,Lego House,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.562,0.592,0.637,0.0,0.13,-8.48,0.0992,159.701,0.565,9
+274,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,10,42KbhKOdtFGCMTB5zAP0Kc,"You Need Me, I Don't Need You",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.162,0.749,0.837,0.0,0.525,-8.837,0.0512,103.483,0.927,3
+275,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,11,2peGDZGGeMYRJLuphBA12t,Kiss Me,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,10
+276,+,spotify:album:2PNtGh8cixtb0oXjbGkUnZ,12,4hoPLbdklZciKpRdFAEiO1,Give Me Love,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.694,0.526,0.328,0.0,0.112,-9.864,0.0461,116.068,0.11,10
+277,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,1,1iyJwocwqUMwLgmu9O5Y13,Lately (feat. Devlin),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0928,0.718,0.82,0.0,0.391,-5.552,0.103,90.013,0.329,38
+278,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,2,7h7KBBdYIzrxOsLfR9aUO7,You (feat. Wiley),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.386,0.799,0.532,0.00017,0.0978,-9.472,0.0707,100.032,0.189,37
+279,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,3,79d2OA4Sj4nfw0vk8EV82D,Family (feat. P Money),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.515,0.476,0.704,0.0,0.094,-5.411,0.278,140.396,0.297,36
+280,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,4,5KB7EYQuHd0S5WKVWpagYu,Radio (feat. JME),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.214,0.693,0.833,0.0,0.117,-5.408,0.263,99.901,0.759,38
+281,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,5,5rKb6l02IplvF9I0sJI9Lj,Little Lady (feat. Mikill Pane),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.731,0.437,0.5,0.0,0.157,-7.103,0.105,85.293,0.437,43
+282,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,6,0UD8qgp0Fmgh79K3qeTHQh,Drown Me Out (feat. Ghetts) - + Ghetts,Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.0282,0.511,0.91,0.0,0.127,-6.186,0.116,140.147,0.426,35
+283,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,7,4MKPqVv3FqKCZTcKHfR125,"Nightmares (feat. Random Impulse, Sway & Wretch 32)",Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.101,0.855,0.678,0.00232,0.0964,-6.864,0.052,120.012,0.429,35
+284,No.5 Collaborations Project,spotify:album:6DpIyaMgt5p9HlGd1c0LDM,8,1SdyQYIFM05qkexCFKZxW1,Goodbye to You (feat. Dot Rotten),Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,0.267,0.64,0.664,0.0,0.329,-7.812,0.152,140.007,0.275,35
